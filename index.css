@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(255, 255, 255, 1)
+  background-image: url("mountain-triage-half-blur.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 70px
+  padding: 20px;
+}
