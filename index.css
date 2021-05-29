@@ -17,7 +17,16 @@ h1 {
   padding-bottom: 50px;
 }
 
+.realh2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 35px;
+}
+
 h3 {
   font-family: 'Poppins';
-  font-size: 30px;
+  font-size: 35px;
+}
+
+p {
+  font-size: 18px;
 }
