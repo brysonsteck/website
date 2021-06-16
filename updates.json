@@ -2,15 +2,11 @@
     "wiimmfi-watcher": {
         "current-release": "1.1.4",
         "github-release": "https://github.com/brysonsteck/wiimmfi-watcher/releases/tag/1.1.4",
-        "play-store": "https://play.google.com/store/apps/details?id=me.brysonsteck.wiimmfiwatcher",
-
-        "current-build": "1.1.4"
+        "play-store": "https://play.google.com/store/apps/details?id=me.brysonsteck.wiimmfiwatcher"
     },
 
     "resurrection": {
-        "current-release": "0",
-        "github-release": "https://github.com/brysonsteck/resurrection",
-
-        "current-build": "0.0.1 alpha"
+        "current-release": "1.0",
+        "github-release": "https://github.com/brysonsteck/resurrection"
     }
 }
