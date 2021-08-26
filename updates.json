@@ -6,7 +6,7 @@
     },
 
     "resurrection": {
-        "current-release": "0.2.1 beta",
-        "github-release": "https://github.com/brysonsteck/resurrection/releases/tag/0.2.1-beta"
+        "current-release": "1.0",
+        "github-release": "https://github.com/brysonsteck/resurrection/releases/tag/1.0"
     }
 }
