@@ -1,7 +1,7 @@
 {
     "wiimmfi-watcher": {
-        "current-release": "1.2",
-        "github-release": "https://github.com/brysonsteck/wiimmfi-watcher/releases/tag/1.2",
+        "current-release": "1.2.1",
+        "github-release": "https://github.com/brysonsteck/wiimmfi-watcher/releases/tag/1.2.1",
         "play-store": "https://play.google.com/store/apps/details?id=me.brysonsteck.wiimmfiwatcher"
     },
 
