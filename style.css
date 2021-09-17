@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap');
 
 body {
+  background-image: url("mountain-triage-half-blur.jpg");
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: white; 
   background-repeat:no-repeat;
   background-attachment:fixed;
   background-position:center; 
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 50px;
+}
+
+img.bryson {
+  width:100px;
+  height:100px; 
+  text-align: center;
+  padding-top: 50px; 
+  padding-right:30px; 
 }
 
 h1 {
