@@ -1,70 +1,127 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 
-body {
-  background-image: url("mountain-triage-half-blur.jpg");
-  font-family: 'Roboto', sans-serif;
-  color: white; 
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-position:center; 
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
+:root {
+/* Stolen from https://github.com/arcticicestudio/nord/blob/develop/src/nord.css */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;  
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
 }
 
-img.bryson {
-  width:100px;
-  height:100px; 
-  text-align: center;
-  padding-top: 50px; 
-  padding-right:30px; 
+code {
+    font-family: "JetBrains Mono";
+}
+
+code.large {
+    font-size: 17px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 65em;
+    background-color: var(--nord0);
+    color: var(--nord4);
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 70px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+    color: var(--nord6);
 }
 
-h3 {
-  font-family: 'Poppins';
-  font-size: 35px;
+h2 {
+    color: var(--nord6);
 }
 
 p {
-  font-size: 18px;
+    font-size: 17px;
 }
 
-h4 {
-  font-family: "Poppins", sans-serif;
-  font-size: 24px;
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
-a {
-  padding-bottom: -40px;
+hr {
+    border-style: solid;
+    border-width: 2px;
+    color: var(--nord1);
 }
 
-a:link {
-  color: #FFEA40;
-  background-color: transparent;
-  text-decoration: none;
+.navbar {
+    margin-top: 20px;
+    color: var(--nord0);
+    background-color: var(--nord4);
+    border-radius: 10px;
+    padding: 10px 10px 10px 50px;
+    box-shadow: 0px 0px 15px var(--nord4); 
 }
 
-a:visited {
-  color: #FFEA40;
-  background-color: transparent;
-  text-decoration: none;
+.title {
+    margin-top: 20px;
+    background-color: var(--nord10);
+    border-radius: 10px;
+    padding: 10px 10px 10px 50px;
+    box-shadow: 0px 0px 15px var(--nord10); 
 }
 
-a:hover {
-  color: #63FF94;
-  background-color: transparent;
-  text-decoration: none;
+.normal {
+    background-color: var(--nord3);
+    border-radius: 10px;
+    padding: 10px 50px 20px 50px;
+    box-shadow: 0px 0px 15px var(--nord3); 
 }
 
-a:active {
-  color: #FFF963;
-  background-color: transparent;
-  text-decoration: none;
+.resurrection {
+    background-color: var(--nord11);
+    border-radius: 10px;
+    padding: 10px 50px 20px 50px;
+    box-shadow: 0px 0px 15px var(--nord11); 
 }
+
+img.resurrection-sc {
+    box-shadow: 0px 0px 15px black;
+}
+
+.watcher {
+    background-color: var(--nord12);
+    border-radius: 10px;
+    padding: 10px 50px 20px 50px;
+    box-shadow: 0px 0px 15px var(--nord12); 
+}
+
+img.watcher-sc {
+    box-shadow: 0px 0px 15px white;
+    max-width: 30%;
+    height: auto;
+}
+
+.extra-padding {
+    padding-left: 50px;
+}
+
+.website {
+    background-color: var(--nord14);
+    border-radius: 10px;
+    padding: 10px 50px 20px 50px;
+    box-shadow: 0px 0px 15px var(--nord14);
+    color: var(--nord0);
+}
+
