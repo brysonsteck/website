@@ -60,12 +60,15 @@ img {
 }
 
 hr {
+    margin: 0 0.6em;
     border-style: solid;
     border-width: 2px;
     color: var(--nord1);
 }
 
 .navbar {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     margin-top: 20px;
     color: var(--nord0);
     background-color: var(--nord4);
@@ -75,6 +78,8 @@ hr {
 }
 
 .title {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     margin-top: 20px;
     background-color: var(--nord10);
     border-radius: 10px;
@@ -83,6 +88,8 @@ hr {
 }
 
 .normal {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     background-color: var(--nord3);
     border-radius: 10px;
     padding: 10px 50px 20px 50px;
@@ -90,6 +97,8 @@ hr {
 }
 
 .resurrection {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     background-color: var(--nord11);
     border-radius: 10px;
     padding: 10px 50px 20px 50px;
@@ -101,6 +110,8 @@ img.resurrection-sc {
 }
 
 .watcher {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     background-color: var(--nord12);
     border-radius: 10px;
     padding: 10px 50px 20px 50px;
@@ -118,6 +129,8 @@ img.watcher-sc {
 }
 
 .website {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     background-color: var(--nord14);
     border-radius: 10px;
     padding: 10px 50px 20px 50px;
