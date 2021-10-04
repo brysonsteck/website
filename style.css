@@ -147,6 +147,13 @@ img.watcher-sc {
     height: auto;
 }
 
+img.watcher-sc-2 {
+    margin: 10px;
+    box-shadow: 0px 0px 15px white;
+    max-width: 30%;
+    height: auto;
+}
+
 .extra-padding {
     padding-left: 50px;
 }
