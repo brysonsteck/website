@@ -19,6 +19,28 @@
     --nord13: #ebcb8b;
     --nord14: #a3be8c;
     --nord15: #b48ead;
+    --black: #121212;
+    --white: #D5D5D5;
+    --red: #C12A2A;
+    --orange: #D5682D;
+    --yellow: #E0D532;
+    --green: #2EB329;
+    --greenblue: #17CA6E;
+    --blue: #1F7AFF;
+    --lightblue: #109EC2;
+    --purple: #9529CB;
+    --gray: #434343;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60em;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Roboto', Arial, sans-serif;
+    text-size-adjust: auto;
+    -webkit-text-size-adjust: 150%;
 }
 
 code {
@@ -26,32 +48,19 @@ code {
 }
 
 code.large {
-    font-size: 17px;
+    font-size: medium;
 }
 
-div {
-    margin-bottom: 20px;
+code.viewing {
+    color: var(--greenblue)
 }
 
-body {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 65em;
-    background-color: var(--nord0);
-    color: var(--nord4);
-    font-family: 'Roboto', Arial, sans-serif;
-}
-
-h1 {
-    color: var(--nord6);
-}
-
-h2 {
-    color: var(--nord6);
+h1 h2 {
+    color: #FFFFFF;
 }
 
 p {
-    font-size: 17px;
+    font-size: medium;
 }
 
 img {
@@ -63,82 +72,94 @@ hr {
     margin: 0 0.6em;
     border-style: solid;
     border-width: 2px;
-    color: var(--nord1);
+    color: var(--gray);
 }
+
+div {
+    margin-bottom: 20px;
+}
+
+/* div classes */
 
 .navbar {
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-top: 20px;
-    color: var(--nord0);
-    background-color: var(--nord4);
+    color: var(--black);
+    background-color: var(--white);
     border-radius: 10px;
     padding: 10px 10px 10px 50px;
-    box-shadow: 0px 0px 15px var(--nord4); 
-}
-
-.viewing {
-    color: var(--nord7)
+    box-shadow: 0px 0px 15px var(--white); 
 }
 
 .title {
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-top: 20px;
-    background-color: var(--nord10);
+    background-color: var(--blue);
     border-radius: 10px;
     padding: 10px 10px 10px 50px;
-    box-shadow: 0px 0px 15px var(--nord10); 
+    box-shadow: 0px 0px 15px var(--blue); 
 }
 
 .normal {
     margin-left: 0.5em;
     margin-right: 0.5em;
-    background-color: var(--nord3);
+    background-color: var(--gray);
     border-radius: 10px;
     padding: 10px 50px 20px 50px;
-    box-shadow: 0px 0px 15px var(--nord3); 
+    box-shadow: 0px 0px 15px var(--gray); 
 }
 
 .red {
     margin-left: 0.5em;
     margin-right: 0.5em;
-    background-color: var(--nord11);
+    background-color: var(--red);
     border-radius: 10px;
     padding: 10px 50px 20px 50px;
-    box-shadow: 0px 0px 15px var(--nord11); 
-}
-
-.yellow {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    background-color: var(--nord13);
-    border-radius: 10px;
-    padding: 10px 50px 20px 50px;
-    box-shadow: 0px 0px 15px var(--nord13); 
-    color: var(--nord1);
-}
-
-.purple {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    background-color: var(--nord15);
-    border-radius: 10px;
-    padding: 10px 50px 20px 50px;
-    box-shadow: 0px 0px 15px var(--nord15); 
-}
-
-img.resurrection-sc {
-    box-shadow: 0px 0px 15px black;
+    box-shadow: 0px 0px 15px var(--red); 
 }
 
 .orange {
     margin-left: 0.5em;
     margin-right: 0.5em;
-    background-color: var(--nord12);
+    background-color: var(--orange);
     border-radius: 10px;
     padding: 10px 50px 20px 50px;
-    box-shadow: 0px 0px 15px var(--nord12); 
+    box-shadow: 0px 0px 15px var(--orange); 
+}
+
+.yellow {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    padding: 10px 50px 20px 50px;
+    box-shadow: 0px 0px 15px var(--yellow); 
+    color: var(--black);
+}
+
+.green {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: var(--green);
+    border-radius: 10px;
+    padding: 10px 50px 20px 50px;
+    box-shadow: 0px 0px 15px var(--green);
+    color: var(--black);
+}
+
+.purple {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    background-color: var(--purple);
+    border-radius: 10px;
+    padding: 10px 50px 20px 50px;
+    box-shadow: 0px 0px 15px var(--purple); 
+}
+
+img.resurrection-sc {
+    box-shadow: 0px 0px 15px black;
 }
 
 img.watcher-sc {
@@ -154,41 +175,31 @@ img.watcher-sc-2 {
     height: auto;
 }
 
-.extra-padding {
-    padding-left: 50px;
-}
-
-.green {
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-    background-color: var(--nord14);
-    border-radius: 10px;
-    padding: 10px 50px 20px 50px;
-    box-shadow: 0px 0px 15px var(--nord14);
-    color: var(--nord0);
-}
-
 a:link {
-  color: var(--nord10);
+  color: var(--blue);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:visited {
-  color: var(--nord10);
+  color: var(--blue);
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--nord8);
+  color: var(--lightblue);
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:active {
-  color: var(--nord15);
+  color: var(--greenblue);
   background-color: transparent;
   text-decoration: none;
+}
+
+.extra-padding {
+    padding-left: 50px;
 }
 
