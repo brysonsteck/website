@@ -1,3 +1,7 @@
+# :warning: This website has been replaced.
+
+Please visit [the new repository](https://github.com/brysonsteck/new-website) for the current website!
+
 # My Website
 
 Contains the files used on my web server. I don't know what else you want me to say.
